@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Jack的博客"
-  text: "Jack的分享"
-  tagline: My great project tagline
+  # text: "Jack的分享"
+  tagline: 偷得浮生半日闲
   actions:
     - theme: brand
       text: Markdown Examples
