@@ -45,6 +45,12 @@ export default defineConfig({
 
     sidebar: autoSidebar(),
 
+    // 页面底部统计栏（带侧边栏的页面会自动隐藏 footer）
+    footer: {
+      message: '<img src="https://hits.sh/jack-youyou.github.io.svg?label=访问量&color=646cff&style=flat-square" alt="访问量" style="height:20px;vertical-align:middle;" />',
+      copyright: `Copyright © ${new Date().getFullYear()} Jack`
+    }
+
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
